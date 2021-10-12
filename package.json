@@ -1,0 +1,31 @@
+{
+  "name": "@lucasielli/nodetest-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test Node"
+  },
+  "bin": {
+    "holidates": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasIelli/NodeTest-CLI.git"
+  },
+  "keywords": [
+    "coucou"
+  ],
+  "author": "Lucas ielli",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LucasIelli/NodeTest-CLI/issues"
+  },
+  "homepage": "https://github.com/LucasIelli/NodeTest-CLI#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "chalk": "^4.1.2",
+    "country-list": "^2.2.0",
+    "figlet": "^1.5.2"
+  }
+}
