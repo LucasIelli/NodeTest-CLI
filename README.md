@@ -33,7 +33,7 @@ You'll be able to ask to the app the holidays and the year for a specific countr
 
 ### <u>Still WIP</u>
 
-I'm working on a version 1.0.3 to solve the issue of countries with 2-3-4 words.
+I'm working on a version 1.0.4 to solve the issue of countries with 2-3-4 words.
 Second issue, I want to use the library Ora, will come asap. And yes, I'm learning now so any help is welcome !
 
 #### <u>Credits</u>
@@ -50,4 +50,6 @@ Second issue, I want to use the library Ora, will come asap. And yes, I'm learni
 
 ###### V1.0.2 Use holidates instead of node .
 
-###### V1.0.3 Incoming...
+###### V1.0.3 Ora fixed
+
+###### V1.0.4 Need to fix issue for 2+ countries words
