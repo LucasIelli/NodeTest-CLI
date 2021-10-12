@@ -13,9 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/LucasIelli/NodeTest-CLI.git"
   },
-  "keywords": [
-    ""
-  ],
   "author": "Lucas ielli",
   "license": "UNLICENSED",
   "bugs": {

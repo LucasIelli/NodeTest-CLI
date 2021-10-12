@@ -28,7 +28,7 @@ You'll be able to ask to the app the holidays and the year for a specific countr
 
 - `holidates country-you-want year-you-want`
 - `holidates country-you-want`
-- As an example for my country and my birthdate : `node . belgium 1993`
+- As an example for my country and my birthdate : `holidates belgium 1993`
 - NB : if you don't type any year it'll show the holidates for the current year.
 
 ### <u>Still WIP</u>
