@@ -1,6 +1,6 @@
 {
   "name": "@lucasielli/nodetest-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "axios": "^0.22.0",
     "chalk": "^4.1.2",
     "country-list": "^2.2.0",
-    "figlet": "^1.5.2"
+    "figlet": "^1.5.2",
+    "ora": "^6.0.1"
   }
 }

@@ -1,13 +1,18 @@
 #!/usr/bin/env node
 
+// const ora = require("ora");
+
 const axios = require("axios");
 const { getCode } = require("country-list");
 const chalk = require("chalk");
 const figlet = require("figlet");
-// const ora = require("ora");
 
 const country = getCode(process.argv[2]);
 const year = process.argv[3] || new Date().getFullYear();
+
+// if (process.argv[3] != Number) {
+//   console.log("is not a number");
+// }
 
 async function getHolidays() {
   try {
@@ -30,7 +35,7 @@ async function displayHolidays() {
           holiday.date
         )}: ${chalk.magenta.italic(holiday.name)}${chalk.grey(
           aka
-        )}: ${chalk.cyanBright(holiday.localName)}`
+        )}> ${chalk.cyanBright(holiday.localName)}`
       )
     );
     return "";
