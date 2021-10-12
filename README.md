@@ -26,14 +26,14 @@ You'll be able to ask to the app the holidays and the year for a specific countr
 2. From your terminal, go in the folder and use `npm install` it'll install all the packages I used to create this app.
 3. You have now these two following commands :
 
-- `node . country-you-want year-you-want`
-- `node . country-you-want`
+- `holidates country-you-want year-you-want`
+- `holidates country-you-want`
 - As an example for my country and my birthdate : `node . belgium 1993`
 - NB : if you don't type any year it'll show the holidates for the current year.
 
 ### <u>Still WIP</u>
 
-I'm working on a version 1.0.1 to solve the issue of countries with 2-3-4 words.
+I'm working on a version 1.0.3 to solve the issue of countries with 2-3-4 words.
 Second issue, I want to use the library Ora, will come asap. And yes, I'm learning now so any help is welcome !
 
 #### <u>Credits</u>
@@ -48,4 +48,6 @@ Second issue, I want to use the library Ora, will come asap. And yes, I'm learni
 
 ###### V1.0.1 Small updates to remove Ora.
 
-###### V1.0.2 Incoming...
+###### V1.0.2 Use holidates instead of node .
+
+###### V1.0.3 Incoming...

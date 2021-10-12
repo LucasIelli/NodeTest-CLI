@@ -1,6 +1,6 @@
 {
   "name": "@lucasielli/nodetest-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/LucasIelli/NodeTest-CLI.git"
   },
   "keywords": [
-    "coucou"
+    ""
   ],
   "author": "Lucas ielli",
   "license": "UNLICENSED",
